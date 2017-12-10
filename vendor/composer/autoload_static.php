@@ -14,8 +14,8 @@ class ComposerStaticInit970fd54737668adeec1d2ad634e302d9
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
-        '5a12a5271c58108e0aa33355e6ac54ea' => __DIR__ . '/..' . '/drupal/console-core/src/functions.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
+        '5a12a5271c58108e0aa33355e6ac54ea' => __DIR__ . '/..' . '/drupal/console-core/src/functions.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
     );
 
@@ -124,6 +124,9 @@ class ComposerStaticInit970fd54737668adeec1d2ad634e302d9
             'Consolidation\\AnnotatedCommand\\' => 31,
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
+            'CommerceGuys\\Intl\\' => 18,
+            'CommerceGuys\\Enum\\' => 18,
+            'CommerceGuys\\Addressing\\' => 24,
         ),
         'B' => 
         array (
@@ -413,6 +416,18 @@ class ComposerStaticInit970fd54737668adeec1d2ad634e302d9
         'Composer\\Installers\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
+        ),
+        'CommerceGuys\\Intl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/commerceguys/intl/src',
+        ),
+        'CommerceGuys\\Enum\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/commerceguys/enum/src',
+        ),
+        'CommerceGuys\\Addressing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/commerceguys/addressing/src',
         ),
         'Behat\\Mink\\Driver\\' => 
         array (
